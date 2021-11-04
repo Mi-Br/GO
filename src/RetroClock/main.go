@@ -86,7 +86,6 @@ func main() {
 
 		//ofset index to start from the right
 		if index[0] == -8 {
-			fmt.Println("reached max, swapping")
 			index = [8]int{7, 8, 9, 10, 11, 12, 13, 14}
 		}
 
